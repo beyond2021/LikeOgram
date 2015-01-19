@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2200A2051A2A636700E94310 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200A2041A2A636700E94310 /* UploadViewController.swift */; };
 		2230E1701A26C74600542052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230E16F1A26C74600542052 /* AppDelegate.swift */; };
-		2230E1721A26C74600542052 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230E1711A26C74600542052 /* MasterViewController.swift */; };
 		2230E1741A26C74600542052 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230E1731A26C74600542052 /* DetailViewController.swift */; };
 		2230E1771A26C74600542052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2230E1751A26C74600542052 /* Main.storyboard */; };
 		2230E1791A26C74600542052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2230E1781A26C74600542052 /* Images.xcassets */; };
 		2230E17C1A26C74600542052 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2230E17A1A26C74600542052 /* LaunchScreen.xib */; };
 		2230E1881A26C74600542052 /* ExchangeOgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230E1871A26C74600542052 /* ExchangeOgramTests.swift */; };
+		227BB8301A303E3B0068B391 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB82C1A303E3A0068B391 /* Bolts.framework */; };
+		227BB8311A303E3B0068B391 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB82D1A303E3B0068B391 /* Parse.framework */; };
+		227BB8321A303E3B0068B391 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB82E1A303E3B0068B391 /* ParseFacebookUtils.framework */; };
+		227BB8331A303E3B0068B391 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB82F1A303E3B0068B391 /* ParseUI.framework */; };
+		227BB8351A303ED70068B391 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8341A303ED70068B391 /* SystemConfiguration.framework */; };
+		227BB8371A303EE60068B391 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8361A303EE60068B391 /* StoreKit.framework */; };
+		227BB8391A303EF80068B391 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8381A303EF80068B391 /* Security.framework */; };
+		227BB83B1A303F090068B391 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB83A1A303F090068B391 /* QuartzCore.framework */; };
+		227BB83D1A303F220068B391 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB83C1A303F220068B391 /* MobileCoreServices.framework */; };
+		227BB83F1A303F400068B391 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB83E1A303F400068B391 /* libz.dylib */; };
+		227BB8411A303F520068B391 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8401A303F520068B391 /* CoreLocation.framework */; };
+		227BB8431A303F660068B391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8421A303F660068B391 /* CoreGraphics.framework */; };
+		227BB8451A303F790068B391 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8441A303F790068B391 /* CFNetwork.framework */; };
+		227BB8471A303F8D0068B391 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227BB8461A303F8D0068B391 /* AudioToolbox.framework */; };
+		227BB84D1A3043F60068B391 /* ImageSenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BB84C1A3043F60068B391 /* ImageSenderViewController.swift */; };
+		227BB84F1A3109CA0068B391 /* TimeLineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BB84E1A3109CA0068B391 /* TimeLineTableViewController.swift */; };
+		22D3F3D81A395C5D006FBE40 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3F3D71A395C5D006FBE40 /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2200A2041A2A636700E94310 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		2230E16A1A26C74600542052 /* ExchangeOgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeOgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2230E16E1A26C74600542052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2230E16F1A26C74600542052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2230E1711A26C74600542052 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		2230E1731A26C74600542052 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2230E1761A26C74600542052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2230E1781A26C74600542052 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -38,6 +55,24 @@
 		2230E1811A26C74600542052 /* ExchangeOgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeOgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2230E1861A26C74600542052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2230E1871A26C74600542052 /* ExchangeOgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeOgramTests.swift; sourceTree = "<group>"; };
+		227BB82C1A303E3A0068B391 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		227BB82D1A303E3B0068B391 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		227BB82E1A303E3B0068B391 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		227BB82F1A303E3B0068B391 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		227BB8341A303ED70068B391 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		227BB8361A303EE60068B391 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		227BB8381A303EF80068B391 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		227BB83A1A303F090068B391 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		227BB83C1A303F220068B391 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		227BB83E1A303F400068B391 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		227BB8401A303F520068B391 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		227BB8421A303F660068B391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		227BB8441A303F790068B391 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		227BB8461A303F8D0068B391 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		227BB8481A3040040068B391 /* ExchangeOgram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExchangeOgram-Bridging-Header.h"; sourceTree = "<group>"; };
+		227BB84C1A3043F60068B391 /* ImageSenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSenderViewController.swift; sourceTree = "<group>"; };
+		227BB84E1A3109CA0068B391 /* TimeLineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewController.swift; sourceTree = "<group>"; };
+		22D3F3D71A395C5D006FBE40 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +80,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227BB8471A303F8D0068B391 /* AudioToolbox.framework in Frameworks */,
+				227BB8451A303F790068B391 /* CFNetwork.framework in Frameworks */,
+				227BB8431A303F660068B391 /* CoreGraphics.framework in Frameworks */,
+				227BB8411A303F520068B391 /* CoreLocation.framework in Frameworks */,
+				227BB83F1A303F400068B391 /* libz.dylib in Frameworks */,
+				227BB83D1A303F220068B391 /* MobileCoreServices.framework in Frameworks */,
+				227BB83B1A303F090068B391 /* QuartzCore.framework in Frameworks */,
+				227BB8391A303EF80068B391 /* Security.framework in Frameworks */,
+				227BB8371A303EE60068B391 /* StoreKit.framework in Frameworks */,
+				227BB8351A303ED70068B391 /* SystemConfiguration.framework in Frameworks */,
+				227BB8311A303E3B0068B391 /* Parse.framework in Frameworks */,
+				227BB8301A303E3B0068B391 /* Bolts.framework in Frameworks */,
+				227BB8331A303E3B0068B391 /* ParseUI.framework in Frameworks */,
+				227BB8321A303E3B0068B391 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +110,7 @@
 		2230E1611A26C74600542052 = {
 			isa = PBXGroup;
 			children = (
+				22D3F3D71A395C5D006FBE40 /* ContainerViewController.swift */,
 				2230E16C1A26C74600542052 /* ExchangeOgram */,
 				2230E1841A26C74600542052 /* ExchangeOgramTests */,
 				2230E16B1A26C74600542052 /* Products */,
@@ -80,12 +130,16 @@
 			isa = PBXGroup;
 			children = (
 				2230E16F1A26C74600542052 /* AppDelegate.swift */,
-				2230E1711A26C74600542052 /* MasterViewController.swift */,
 				2230E1731A26C74600542052 /* DetailViewController.swift */,
+				227BB84C1A3043F60068B391 /* ImageSenderViewController.swift */,
 				2230E1751A26C74600542052 /* Main.storyboard */,
+				2200A2041A2A636700E94310 /* UploadViewController.swift */,
+				227BB84E1A3109CA0068B391 /* TimeLineTableViewController.swift */,
 				2230E1781A26C74600542052 /* Images.xcassets */,
 				2230E17A1A26C74600542052 /* LaunchScreen.xib */,
+				227BB82B1A303E080068B391 /* Libraries */,
 				2230E16D1A26C74600542052 /* Supporting Files */,
+				227BB8481A3040040068B391 /* ExchangeOgram-Bridging-Header.h */,
 			);
 			path = ExchangeOgram;
 			sourceTree = "<group>";
@@ -113,6 +167,27 @@
 				2230E1861A26C74600542052 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227BB82B1A303E080068B391 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				227BB8461A303F8D0068B391 /* AudioToolbox.framework */,
+				227BB8441A303F790068B391 /* CFNetwork.framework */,
+				227BB8421A303F660068B391 /* CoreGraphics.framework */,
+				227BB8401A303F520068B391 /* CoreLocation.framework */,
+				227BB83E1A303F400068B391 /* libz.dylib */,
+				227BB83C1A303F220068B391 /* MobileCoreServices.framework */,
+				227BB83A1A303F090068B391 /* QuartzCore.framework */,
+				227BB8381A303EF80068B391 /* Security.framework */,
+				227BB8361A303EE60068B391 /* StoreKit.framework */,
+				227BB8341A303ED70068B391 /* SystemConfiguration.framework */,
+				227BB82C1A303E3A0068B391 /* Bolts.framework */,
+				227BB82D1A303E3B0068B391 /* Parse.framework */,
+				227BB82E1A303E3B0068B391 /* ParseFacebookUtils.framework */,
+				227BB82F1A303E3B0068B391 /* ParseUI.framework */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2230E1741A26C74600542052 /* DetailViewController.swift in Sources */,
-				2230E1721A26C74600542052 /* MasterViewController.swift in Sources */,
+				22D3F3D81A395C5D006FBE40 /* ContainerViewController.swift in Sources */,
+				227BB84D1A3043F60068B391 /* ImageSenderViewController.swift in Sources */,
+				227BB84F1A3109CA0068B391 /* TimeLineTableViewController.swift in Sources */,
+				2200A2051A2A636700E94310 /* UploadViewController.swift in Sources */,
 				2230E1701A26C74600542052 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +420,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExchangeOgram",
+				);
 				INFOPLIST_FILE = ExchangeOgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExchangeOgram/ExchangeOgram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +438,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExchangeOgram",
+				);
 				INFOPLIST_FILE = ExchangeOgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExchangeOgram/ExchangeOgram-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +504,7 @@
 				2230E18D1A26C74600542052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2230E18E1A26C74600542052 /* Build configuration list for PBXNativeTarget "ExchangeOgramTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +513,7 @@
 				2230E1901A26C74600542052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,13 +15,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        /*
+        [Parse setApplicationId:@"PnRjQ3XWONAXqhLezp3WFHeNKyymlm0e8sH9p6Ti"
+        clientKey:@"mUM7X6HalUxuVLM8VoAe7yL09j88bEYFX92hhEVE"];
+        
+        PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+        testObject[@"foo"] = @"bar";
+        [testObject saveInBackground];
+
+*/
+        Parse.setApplicationId("PnRjQ3XWONAXqhLezp3WFHeNKyymlm0e8sH9p6Ti", clientKey: "mUM7X6HalUxuVLM8VoAe7yL09j88bEYFX92hhEVE")
+        
+        
+        /*
+        let testObject = PFObject(className: "TestObject")
+        //Adding a column(Property) Keevin value pussy
+        testObject["Keevin"] = "pussy"
+        //Save
+        testObject.saveInBackgroundWithTarget(self, selector: nil)
+*/
+        
+
+        
+        
         // Override point for customization after application launch.
         let splitViewController = self.window!.rootViewController as UISplitViewController
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as UINavigationController
         navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
         splitViewController.delegate = self
+        splitViewController.preferredDisplayMode = UISplitViewControllerDisplayMode.AllVisible        
+        
+        let containerViewController : ContainerViewController = ContainerViewController()
+        containerViewController.setEmbeddedViewController(splitViewController)
+        
+        window?.rootViewController = containerViewController
+        
         return true
     }
+    
+    /*
+    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController!, ontoPrimaryViewController primaryViewController: UIViewController!) -> Bool {
+        
+        return true
+    }
+*/
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -56,7 +94,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                 }
             }
         }
-        return false
+      /////  return false
+        return true
+        
     }
 
 }
